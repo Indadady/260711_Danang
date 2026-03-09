@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 🚨 Google Analytics (GA4) - Tourmaker 통합 관리 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLH9GD9SVR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JLH9GD9SVR');
+    </script>
+    <!-- // Google Analytics 끝 -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🌟 카카오톡/SNS 공유 시 보여질 썸네일 및 정보 설정 (Open Graph) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="2026 영월신천초등학교 다낭 글로벌 영어 캠프 제안서">
+    <meta property="og:description" content="베트남 다낭 OIS 국제학교와 멜리아 리조트에서 진행되는 프리미엄 영어 캠프 (대한항공 7박 9일)">
+    <!-- 웹페이지 내 이미지를 무조건 썸네일로 사용 (다낭 멜리아 리조트 컨셉 이미지) -->
+    <meta property="og:image" content="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- // SNS 설정 끝 -->
+
+    <title>2026 영월신천초 다낭 영어 캠프: Smart Guidebook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        
+        /* Hero Background - Da Nang Vibe (Dragon Bridge/Riverfront) */
+        .hero-bg-main { 
+            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(14, 165, 233, 0.6)), url('https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        } 
+        
+        /* Interactive Elements */
+        .nav-link { transition: all 0.3s; }
+        .nav-link:hover, .nav-link.active { color: #0ea5e9; border-bottom-color: #0ea5e9; }
+        
+        /* Table Styling */
+        .schedule-table th { white-space: nowrap; }
+        .schedule-table td { vertical-align: middle; }
+        .schedule-table tr:hover { background-color: rgba(241, 245, 249, 0.8); }
+        
+        html { scroll-behavior: smooth; }
+        
+        /* Play Button Overlay */
+        .play-overlay { background: rgba(0, 0, 0, 0.4); transition: all 0.3s; }
+        .group:hover .play-overlay { background: rgba(0, 0, 0, 0.2); }
+        .play-icon { transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .group:hover .play-icon { transform: scale(1.2); }
+
+        /* Note Pad Style */
+        .notepad {
+            background-color: #fef9c3;
+            background-image: linear-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 100% 2rem;
+            line-height: 2rem;
+            font-family: 'Noto Sans KR', sans-serif;
+            border-left: 4px solid #0ea5e9;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        }
+        .notepad:focus { outline: none; background-color: #fef08a; }
+        
+        /* Roadmap Styling */
+        .roadmap-step { position: relative; }
+        .roadmap-step:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 2rem;
+            left: 50%;
+            width: 100%;
+            height: 2px;
+            background: #cbd5e1;
+            z-index: 0;
+            transform: translateX(50%);
+        }
+        @media (max-width: 768px) {
+            .roadmap-step:not(:last-child)::after {
+                width: 2px;
+                height: 100%;
+                top: 50%;
+                left: 2rem;
+                transform: translate(0, 50%);
+            }
+        }
+    </style>
+</head>
+<body class="antialiased bg-slate-50">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Tourmaker Logo & D-Day -->
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="h-8 w-auto">
+                    <!-- D-Day Counter Badge -->
+                    <div id="d-day-badge" class="bg-emerald-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-md animate-pulse">
+                        Calculating...
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button (Hamburger) -->
+                <div class="md:hidden">
+                    <a href="#mynote" class="text-yellow-600 font-bold text-sm mr-2"><i class="fa-solid fa-pen-to-square"></i> MY노트</a>
+                </div>
+
+                <!-- Desktop Nav -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-6 text-sm font-medium">
+                        <a href="#overview"    class="nav-link px-3 py-2 border-b-2 border-transparent hover:text-emerald-600">전체일정</a>
+                        <a href="#flight"      class="nav-link px-3 py-2 border-b-2 border-transparent hover:text-emerald-600">항공정보</a>
+                        <a href="#academy"     class="nav-link px-3 py-2 border-b-2 border-transparent hover:text-emerald-600">어학원/숙소</a>
+                        <a href="#curriculum"  class="nav-link px-3 py-2 border-b-2 border-transparent hover:text-emerald-600">상세시간표</a>
+                        <a href="#video"       class="nav-link px-3 py-2 border-b-2 border-transparent hover:text-emerald-600">다낭미리보기</a>
+                        <a href="#mynote"      class="nav-link px-3 py-2 border-b-2 border-transparent text-yellow-600 font-bold"><i class="fa-solid fa-pen-to-square"></i> MY 노트</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile Secondary Nav -->
+        <div class="md:hidden overflow-x-auto whitespace-nowrap bg-slate-50 border-b border-slate-200">
+            <div class="flex px-4 py-2 space-x-6 text-xs font-medium text-slate-600 justify-center">
+                <a href="#overview" class="block">전체일정</a>
+                <a href="#flight" class="block">항공</a>
+                <a href="#academy" class="block">국제학교</a>
+                <a href="#curriculum" class="block">시간표</a>
+                <a href="#video" class="block">영상</a>
+                <a href="#mynote" class="block text-yellow-600 font-bold">★MY노트</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-bg-main text-white text-center flex items-center justify-center min-h-[75vh] relative">
+            <div class="container mx-auto px-4 z-10 flex flex-col items-center">
+                <!-- School Info Badge -->
+                <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md border border-white/30 text-white px-5 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
+                    <i class="fa-solid fa-school"></i> 영월신천초등학교 전용 제안서 (다낭 OIS 캠프)
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-black mb-6 leading-tight drop-shadow-lg">
+                    글로벌 미래 인재의 첫걸음,<br>
+                    <span class="text-emerald-300">베트남 다낭 OIS 영어 캠프</span>
+                </h1>
+                
+                <div class="mt-4 max-w-3xl mx-auto bg-slate-900/60 backdrop-blur-sm p-6 rounded-xl border border-slate-700">
+                    <p class="text-lg md:text-xl text-slate-200 font-medium leading-relaxed">
+                        신천초등학교 학생들을 위해 새롭게 런칭한 프리미엄 어학연수 코스입니다.<br>
+                        <strong class="text-emerald-400">오디세이 국제학교(OIS)의 ESL-STEAM 교육</strong>과<br>
+                        <strong class="text-emerald-400">멜리아(Melia) 호텔/리조트</strong>의 완벽한 밸런스를 제안합니다.
+                    </p>
+                </div>
+                
+                <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4 text-lg font-bold">
+                    <div class="bg-emerald-600 text-white shadow-lg p-4 rounded-lg flex items-center justify-center gap-2 min-w-[300px]">
+                        <i class="fa-regular fa-calendar-check"></i> 7월 11일 (토) ~ 7월 19일 (일) [7박 9일]
+                    </div>
+                    <div class="bg-white text-emerald-800 shadow-lg p-4 rounded-lg flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-plane"></i> 대한항공 다낭 직항 (기내 1박 포함)
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flight Info Section -->
+        <section id="flight" class="py-12 bg-white border-b border-slate-200">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500 font-bold mb-1">출국 스케줄 (7/11 토)</p>
+                            <p class="text-lg font-black text-slate-800">KE 601 <span class="text-emerald-600 text-sm ml-2">인천 20:05 ➔ 다낭 23:30 (예상)</span></p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-px h-12 bg-slate-300"></div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center text-xl shrink-0">
+                            <i class="fa-solid fa-plane-arrival"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-slate-500 font-bold mb-1">귀국 스케줄 (7/19 일)</p>
+                            <p class="text-lg font-black text-slate-800">KE 602 <span class="text-emerald-600 text-sm ml-2">다낭 01:00 ➔ 인천 06:30 (예상)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-xs text-slate-400 mt-3">* 위 항공 스케줄은 세부 캠프와 동일한 타임라인을 가정한 예상 기준이며, 다낭 현지 항공편 확정 시 일부 변동될 수 있습니다.</p>
+            </div>
+        </section>
+
+        <!-- Roadmap Overview -->
+        <section id="overview" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <span class="text-emerald-600 font-bold tracking-wider uppercase">Camp Roadmap</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">다낭 OIS 캠프 전체 일정 (7박 9일)</h2>
+                    <p class="text-red-500 text-sm font-bold mt-3 bg-red-50 inline-block px-4 py-1.5 rounded-full border border-red-100">
+                        <i class="fa-solid fa-circle-exclamation"></i> 본 일정은 기상 악화 등 현지 사정에 의해 일부 변경될 수 있습니다.
+                    </p>
+                </div>
+
+                <div class="max-w-6xl mx-auto">
+                    <!-- Roadmap Visualization (5 Steps) -->
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-4">
+                        
+                        <!-- Step 1 -->
+                        <div class="roadmap-step flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-white border-4 border-emerald-500 rounded-full flex items-center justify-center text-2xl shadow-lg z-10 mb-4 text-emerald-600">
+                                🛫
+                            </div>
+                            <h3 class="font-bold text-lg text-slate-800">1일차 <span class="text-sm font-normal text-slate-500">(7/11 토)</span></h3>
+                            <p class="text-sm text-emerald-600 font-bold mb-3 bg-emerald-100 px-3 py-1 rounded-full">출국 & 다낭 입국</p>
+                            <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 text-sm w-full h-full">
+                                <ul class="text-left space-y-1.5 text-slate-600">
+                                    <li>• 인천공항 집결</li>
+                                    <li>• 대한항공 직항 탑승</li>
+                                    <li>• 베트남 다낭 공항 도착</li>
+                                    <li>• 전용차량 픽업 및 숙소 이동</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="roadmap-step flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-white border-4 border-emerald-500 rounded-full flex items-center justify-center text-2xl shadow-lg z-10 mb-4 text-emerald-600">
+                                📝
+                            </div>
+                            <h3 class="font-bold text-lg text-slate-800">2일차 <span class="text-sm font-normal text-slate-500">(7/12 일)</span></h3>
+                            <p class="text-sm text-emerald-600 font-bold mb-3 bg-emerald-100 px-3 py-1 rounded-full">적응 & OT</p>
+                            <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 text-sm w-full h-full">
+                                <ul class="text-left space-y-1.5 text-slate-600">
+                                    <li>• 오전 충분한 휴식</li>
+                                    <li>• <strong>OIS 레벨 테스트 진행</strong></li>
+                                    <li>• 현지 적응 (롯데마트/한시장)</li>
+                                    <li>• 안전 교육 및 환영회</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="roadmap-step flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-white border-4 border-emerald-500 rounded-full flex items-center justify-center text-2xl shadow-lg z-10 mb-4 text-emerald-600">
+                                🏫
+                            </div>
+                            <h3 class="font-bold text-lg text-slate-800">3~7일차 <span class="text-sm font-normal text-slate-500">(평일)</span></h3>
+                            <p class="text-sm text-emerald-600 font-bold mb-3 bg-emerald-100 px-3 py-1 rounded-full">OIS 국제학교 수업</p>
+                            <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 text-sm w-full h-full border-l-4 border-l-yellow-400">
+                                <ul class="text-left space-y-1.5 text-slate-600">
+                                    <li>• <strong>OIS 정규 프로그램 참여</strong></li>
+                                    <li>• ESL-STEAM 통합 교육</li>
+                                    <li class="text-emerald-600 font-bold">• (수) 외부 액티비티<br>&nbsp;&nbsp;&nbsp;(호이안 올드타운 투어 등)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="roadmap-step flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-white border-4 border-emerald-500 rounded-full flex items-center justify-center text-2xl shadow-lg z-10 mb-4 text-emerald-600">
+                                🏞️
+                            </div>
+                            <h3 class="font-bold text-lg text-slate-800">8일차 <span class="text-sm font-normal text-slate-500">(7/18 토)</span></h3>
+                            <p class="text-sm text-emerald-600 font-bold mb-3 bg-emerald-100 px-3 py-1 rounded-full">전일 문화체험</p>
+                            <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 text-sm w-full h-full border-l-4 border-l-orange-400">
+                                <ul class="text-left space-y-1.5 text-slate-600">
+                                    <li>• 캠프 수료식 (오전)</li>
+                                    <li>• <strong>전일 현지 문화체험 (바나힐 등)</strong></li>
+                                    <li>• 특식 제공 및 쇼핑</li>
+                                    <li>• 늦은 밤 다낭 공항으로 이동</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="roadmap-step flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-white border-4 border-emerald-500 rounded-full flex items-center justify-center text-2xl shadow-lg z-10 mb-4 text-emerald-600">
+                                🏠
+                            </div>
+                            <h3 class="font-bold text-lg text-slate-800">9일차 <span class="text-sm font-normal text-slate-500">(7/19 일)</span></h3>
+                            <p class="text-sm text-emerald-600 font-bold mb-3 bg-emerald-100 px-3 py-1 rounded-full">귀국 (기내 1박)</p>
+                            <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-200 text-sm w-full h-full">
+                                <ul class="text-left space-y-1.5 text-slate-600">
+                                    <li>• 대한항공 귀국편 탑승</li>
+                                    <li>• 기내 휴식 (기내 1박)</li>
+                                    <li>• 인천공항 도착 (아침)</li>
+                                    <li>• 수화물 수령 및 안전 해산</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academy Details (OIS & Melia) -->
+        <section id="academy" class="py-20 bg-white border-t">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <span class="text-slate-500 font-bold tracking-wider uppercase">LGO Premium Camp</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">OIS 국제학교 & 프리미엄 숙소</h2>
+                    <p class="text-slate-500 mt-2">IB 교육 철학의 학교와 글로벌 체인 '멜리아(Melia)'의 생활/휴양형 통합 인프라를 제공합니다.</p>
+                </div>
+
+                <div class="max-w-5xl mx-auto bg-white border border-slate-200 rounded-2xl shadow-xl p-8 md:p-12 overflow-hidden relative">
+                    <!-- Decorative element -->
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-100 rounded-bl-full -z-10 opacity-50"></div>
+                    
+                    <div class="flex flex-col md:flex-row gap-10 items-center">
+                        <!-- Text Content -->
+                        <div class="flex-1 space-y-6">
+                            <div class="inline-block bg-emerald-100 text-emerald-700 font-bold px-3 py-1 rounded-full text-sm border border-emerald-200">
+                                <i class="fa-solid fa-map-location-dot"></i> 베트남 다낭 (Da Nang)
+                            </div>
+                            <h3 class="text-3xl font-black text-slate-800 leading-tight">
+                                수준 높은 국제학교 교육과<br>완벽한 리조트 힐링
+                            </h3>
+                            
+                            <div class="space-y-4 mt-6">
+                                <div class="flex gap-3">
+                                    <div class="text-emerald-500 mt-1"><i class="fa-solid fa-school-flag"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800">Odyssey International School (OIS)</h4>
+                                        <p class="text-sm text-slate-600 mt-1">세계적으로 인정받는 IB(International Baccalaureate) 교육 철학을 바탕으로, 스스로 질문하고 답을 찾는 능동형 학습(ESL-STEAM)을 진행합니다.</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <div class="text-emerald-500 mt-1"><i class="fa-solid fa-hotel"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800">이원화 숙소 (도심 생활형 / 비치 휴양형)</h4>
+                                        <p class="text-sm text-slate-600 mt-1">
+                                            <span class="font-semibold text-slate-700">1. Melia Vinpearl Riverfront:</span> 접근성이 뛰어난 도심 생활형 레지던스 호텔.<br>
+                                            <span class="font-semibold text-slate-700">2. Melia Danang Beach Resort:</span> 프라이빗 비치를 품은 최고급 휴양형 리조트.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-3">
+                                    <div class="text-emerald-500 mt-1"><i class="fa-solid fa-shield-halved"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-slate-800">LGO 통합 관리 시스템</h4>
+                                        <p class="text-sm text-slate-600 mt-1">다낭 전문 오퍼레이터인 LGO의 스케줄 관리, 식단, 밀착 안전 서포트가 24시간 가동되어 학부모님의 걱정을 덜어드립니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Image Gallery / Visuals -->
+                        <div class="flex-1 w-full">
+                            <div class="grid grid-cols-2 gap-3">
+                                <!-- Placeholders for Da Nang OIS/Melia -->
+                                <img src="https://tse3.mm.bing.net/th/id/OIP.UsXD5Nsnz3NM_6uTMKctTAHaE4?w=474&h=474&c=7&p=0" alt="Melia Danang Beach Resort (비치휴양형)" class="rounded-xl shadow-md w-full h-40 object-cover hover:scale-105 transition duration-300 cursor-pointer">
+                                <img src="https://tse1.mm.bing.net/th/id/OIP.ag5A-ULqdhgg9VMddMPjLwHaE7?w=474&h=474&c=7&p=0" alt="Melia Vinpearl Riverfront (도심생활형)" class="rounded-xl shadow-md w-full h-40 object-cover hover:scale-105 transition duration-300 cursor-pointer">
+                                <div class="col-span-2 bg-slate-50 border border-slate-200 p-4 rounded-xl text-center">
+                                    <p class="text-sm text-slate-700 font-medium">안전한 다낭의 치안과 글로벌 호텔 체인의 쾌적함,<br>그리고 검증된 국제학교 커리큘럼이 만났습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detail Schedule Section -->
+        <section id="curriculum" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-10">
+                    <span class="text-emerald-600 font-bold tracking-wider uppercase">Detail Schedule</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">일일 상세 시간표 (평일 기준)</h2>
+                    <p class="text-slate-500 mt-2">단순 암기가 아닌, 창의력과 문제해결력을 기르는 능동적 하루 일과입니다.</p>
+                </div>
+
+                <!-- Table Container -->
+                <div class="max-w-5xl mx-auto bg-white rounded-xl shadow-xl border border-slate-200 overflow-hidden">
+                    <div class="p-4 bg-emerald-600 text-white flex justify-between items-center">
+                        <h3 class="text-lg md:text-xl font-bold flex items-center gap-2">
+                            <i class="fa-regular fa-clock"></i> OIS 정규 프로그램 (월~금 기준)
+                        </h3>
+                        <span class="text-sm bg-white/20 px-2 py-1 rounded font-bold text-yellow-300">* 수요일 오후는 다낭 현지 투어 진행</span>
+                    </div>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse schedule-table min-w-[600px]">
+                            <thead>
+                                <tr class="bg-slate-100 text-slate-600 text-sm tracking-wider border-b-2 border-slate-200">
+                                    <th class="p-4 w-1/4">시간 (Time)</th>
+                                    <th class="p-4 w-1/4">프로그램 영역</th>
+                                    <th class="p-4 w-2/4">주요 학습 및 활동 내용 (Activities)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-sm md:text-base text-slate-700">
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">07:00 ~ 08:30</td>
+                                    <td class="p-4 font-bold text-emerald-700">Breakfast & Move</td>
+                                    <td class="p-4">기상, 호텔 조식 뷔페 식사 및 학교(OIS)로 이동</td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">08:30 ~ 10:00</td>
+                                    <td class="p-4 font-bold">ESL (영어 집중)</td>
+                                    <td class="p-4">원어민 교사와 함께하는 주제별 영어 학습 (Speaking & Listening)</td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">10:15 ~ 11:45</td>
+                                    <td class="p-4 font-bold text-purple-600">STEAM 교육</td>
+                                    <td class="p-4">과학, 기술, 공학, 예술, 수학이 융합된 창의적 프로젝트 활동</td>
+                                </tr>
+                                <tr class="bg-orange-50 border-b font-medium text-orange-800">
+                                    <td class="p-4 font-mono font-bold">12:00 ~ 13:00</td>
+                                    <td class="p-4 font-bold"><i class="fa-solid fa-utensils"></i> Lunch Time</td>
+                                    <td class="p-4">점심 식사 및 국제학교 캠퍼스 내 휴식</td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">13:00 ~ 14:30</td>
+                                    <td class="p-4 font-bold">ESL / Reading</td>
+                                    <td class="p-4">영어 독서 활동 및 에세이 작성 (Critical Thinking)</td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50 bg-emerald-50/50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">14:45 ~ 16:15</td>
+                                    <td class="p-4 font-bold text-emerald-600">P.E & Activity / 투어</td>
+                                    <td class="p-4">국제학교 체육 활동 및 글로벌 매너 교육<br><span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded mt-1 inline-block font-bold">★ 수요일은 외부 액티비티 (다낭 시내/호이안 문화체험) 진행</span></td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">16:30 ~ 17:30</td>
+                                    <td class="p-4 font-bold">Wrap-up & Return</td>
+                                    <td class="p-4">일일 학습 피드백(Review) 및 호텔/리조트 복귀</td>
+                                </tr>
+                                <tr class="bg-orange-50 border-b font-medium text-orange-800">
+                                    <td class="p-4 font-mono font-bold">18:00 ~ 19:30</td>
+                                    <td class="p-4 font-bold"><i class="fa-solid fa-utensils"></i> Dinner</td>
+                                    <td class="p-4">저녁 식사 (특식/현지식 등) 및 자유 휴식</td>
+                                </tr>
+                                <tr class="border-b hover:bg-slate-50">
+                                    <td class="p-4 font-mono font-bold text-slate-500">19:30 ~ 21:00</td>
+                                    <td class="p-4 font-bold text-indigo-600">Evening Care</td>
+                                    <td class="p-4">영어 일기 쓰기, 부모님께 연락하기, 다음 날 일정 점검</td>
+                                </tr>
+                                <tr class="bg-slate-100 font-medium">
+                                    <td class="p-4 font-mono font-bold text-slate-500">21:30 ~</td>
+                                    <td class="p-4 font-bold text-slate-800"><i class="fa-solid fa-moon"></i> Sleep</td>
+                                    <td class="p-4">안전 점호 및 취침</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Gallery Section -->
+        <section id="video" class="py-20 bg-white border-t">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <span class="text-emerald-600 font-bold tracking-wider uppercase">Visual Insight</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-2">다낭 현지 분위기 미리보기</h2>
+                    <p class="text-slate-500 mt-2">학생들이 방문하게 될 아름다운 다낭의 모습과 문화 체험 스팟을 영상으로 확인하세요.</p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <!-- Video 1: General Da Nang Tourism Video -->
+                    <div class="bg-white p-4 rounded-2xl shadow-lg border border-slate-200">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded text-xs font-bold">문화 체험 스팟</span>
+                            <h4 class="font-bold text-lg">다낭 & 호이안 랜선 투어</h4>
+                        </div>
+                        <div class="relative aspect-video rounded-xl overflow-hidden bg-slate-900 cursor-pointer group" onclick="playVideo(this, 'kTdxc0d54O4')">
+                            <!-- Using a placeholder popular Da Nang video ID image -->
+                            <img src="https://img.youtube.com/vi/kTdxc0d54O4/maxresdefault.jpg" alt="Da Nang Video Thumbnail" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity">
+                            <div class="absolute inset-0 flex items-center justify-center play-overlay">
+                                <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border-2 border-white play-icon">
+                                    <span class="text-white text-3xl ml-2">▶</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 text-sm text-slate-600">안전하고 깨끗한 휴양 도시 다낭의 다채로운 매력과, 수요일/토요일에 진행될 문화탐방 코스의 분위기를 엿볼 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Assistant Section (Checklist & Memo) -->
+        <section id="mynote" class="py-20 bg-slate-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-4"><i class="fa-solid fa-suitcase-rolling text-emerald-600"></i> 스마트 준비물 체크</h2>
+                <p class="text-center text-slate-500 mb-10">출국 전 놓치기 쉬운 준비물과 주요 협의 사항을 메모해 두세요.</p>
+                
+                <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+                    <!-- 1. Smart Checklist -->
+                    <div id="checklist" class="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
+                        <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-list-check text-emerald-600"></i> 어학연수 필수 준비물
+                        </h3>
+                        
+                        <div id="checklist-container" class="space-y-3 h-[400px] overflow-y-auto pr-2">
+                            <!-- JS generates items -->
+                        </div>
+                        <div class="mt-6 text-center">
+                            <button onclick="resetChecklist()" class="text-xs text-slate-400 underline hover:text-slate-600 bg-slate-100 px-3 py-1 rounded">모든 체크 해제하기</button>
+                        </div>
+                    </div>
+
+                    <!-- 2. My Yellow Note -->
+                    <div class="flex flex-col">
+                        <h3 class="text-xl font-bold mb-4 flex items-center gap-2 px-2">
+                            <i class="fa-solid fa-pen-to-square text-yellow-600"></i> MY 노트 (자동 저장)
+                        </h3>
+                        <div class="relative flex-grow">
+                            <!-- Yellow Pad Note -->
+                            <textarea id="travel-memo" 
+                                class="notepad w-full h-[450px] p-6 text-lg text-slate-800 resize-none rounded-lg"
+                                placeholder="학교 요청 사항, 학부모 미팅 내용, 학생 특이사항 등을 편하게 적어두세요.&#10;인터넷이 끊겨도 이 기기에 자동 저장됩니다."></textarea>
+                            
+                            <div id="save-status" class="absolute bottom-4 right-4 text-xs font-bold text-slate-500 bg-white/70 backdrop-blur px-2 py-1 rounded shadow-sm border border-slate-200">
+                                자동 저장 대기중...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="py-20 bg-white border-t">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-2xl font-bold mb-8">영월신천초 전담 투어메이커</h2>
+                <div class="max-w-md mx-auto bg-slate-50 p-8 rounded-2xl shadow-lg border-t-4 border-emerald-600">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="h-8 mx-auto mb-5">
+                    <p class="text-slate-600 mb-6 text-sm">작년의 성공적인 운영 노하우를 바탕으로<br>올해도 학생들에게 완벽한 안전과 교육 효과를 약속드립니다.</p>
+                    <div class="space-y-3 bg-white p-4 rounded-lg border border-slate-200">
+                        <p class="font-medium text-slate-700 flex justify-between">
+                            <span>총괄 책임</span> 
+                            <a href="tel:01094437881" class="text-emerald-600 font-bold hover:underline">이재명 대표 (010-9443-7881)</a>
+                        </p>
+                        <hr class="border-slate-100">
+                        <p class="font-medium text-slate-700 flex justify-between">
+                            <span>실무 담당</span> 
+                            <a href="tel:01042494026" class="text-emerald-600 font-bold hover:underline">조혁 이사 (010-4249-4026)</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="container mx-auto px-4 text-center flex flex-col items-center">
+            
+            <p class="mb-2 font-medium text-slate-300">영월신천초등학교 학생들의 밝은 미래를 응원합니다.</p>
+            <p class="text-sm text-slate-500 mb-8">&copy; 2026 Tourmaker. All Rights Reserved.</p>
+            
+            <!-- Link Box as requested -->
+            <a href="https://tourmaker.kr" target="_blank" class="group relative inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition-all duration-300 border border-white/20 overflow-hidden">
+                <span class="relative z-10 flex items-center gap-3">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker" class="h-5 brightness-0 invert">
+                    투어메이커 홈페이지 바로가기
+                </span>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Video Play Logic
+        function playVideo(element, videoId) {
+            const iframe = document.createElement('iframe');
+            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+            iframe.title = "YouTube Video";
+            iframe.className = "w-full h-full";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowFullscreen = true;
+            
+            element.innerHTML = '';
+            element.appendChild(iframe);
+            element.classList.remove('cursor-pointer', 'group'); 
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            // D-Day Counter (Target: 2026-07-11)
+            const dDayBadge = document.getElementById('d-day-badge');
+            const today = new Date();
+            today.setHours(0,0,0,0);
+            const startDate = new Date('2026-07-11T00:00:00'); 
+            startDate.setHours(0,0,0,0);
+            
+            const diff = Math.ceil((startDate - today) / (1000 * 60 * 60 * 24));
+
+            if (diff > 0) {
+                dDayBadge.innerHTML = `<i class="fa-regular fa-clock"></i> 출국까지 D-${diff}일`;
+            } else if (diff === 0) {
+                dDayBadge.innerText = "D-Day! 베트남 다낭으로 출발";
+                dDayBadge.classList.remove('bg-emerald-600');
+                dDayBadge.classList.add('bg-red-600', 'animate-bounce');
+            } else {
+                dDayBadge.innerText = "캠프 진행 중";
+            }
+
+            // My Yellow Note (Auto-save) using a specific key for Danang Camp
+            const memoArea = document.getElementById('travel-memo');
+            const saveStatus = document.getElementById('save-status');
+            const memoKey = 'sincheon_danang_camp_memo_2026'; 
+            
+            const savedMemo = localStorage.getItem(memoKey);
+            if (savedMemo) {
+                memoArea.value = savedMemo;
+            }
+
+            memoArea.addEventListener('input', function() {
+                localStorage.setItem(memoKey, this.value);
+                saveStatus.innerText = "자동 저장 완료 " + new Date().toLocaleTimeString().slice(0, -3);
+                saveStatus.classList.add('text-green-600', 'border-green-200');
+                setTimeout(() => {
+                    saveStatus.classList.remove('text-green-600', 'border-green-200');
+                }, 2000);
+            });
+
+            // Checklist Logic
+            const checklistContainer = document.getElementById('checklist-container');
+            const checklistItems = [
+                { id: 'dn_passport', text: '여권 (유효기간 6개월 이상 필수 확인)' },
+                { id: 'dn_eticket', text: 'E-티켓 (왕복 항공권 사본)' },
+                { id: 'dn_consent', text: '부모 동의서 및 영문 주민등록등본 (만 14세 미만 필수)' },
+                { id: 'dn_insurance', text: '여행자 보험 가입 증서' },
+                { id: 'dn_money', text: '개인 용돈 (미 달러 100불짜리로 환전 권장, 현지에서 동(VND) 환전)' },
+                { id: 'dn_clothes', text: '여름 의류 (반팔, 반바지 넉넉히)' },
+                { id: 'dn_jacket', text: '얇은 긴팔 가디건 (에어컨 시설 및 비행기 내부용)' },
+                { id: 'dn_swim', text: '수영복, 래시가드, 물안경 (호텔 수영장 이용)' },
+                { id: 'dn_sun', text: '자외선 차단제, 선글라스, 모자, 모기 기피제' },
+                { id: 'dn_wash', text: '개인 세면도구 (칫솔, 치약, 샤워타올 등)' },
+                { id: 'dn_meds', text: '개인 상비약 (멀미약, 장염약, 해열제, 밴드)' },
+                { id: 'dn_study', text: '필기구, 개인 텀블러, 가벼운 백팩' }
+            ];
+
+            checklistItems.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center p-3 bg-white rounded-lg border border-slate-200 hover:bg-slate-50 transition-colors shadow-sm';
+                div.innerHTML = `
+                    <input type="checkbox" id="${item.id}" class="h-5 w-5 text-emerald-600 rounded border-gray-300 focus:ring-emerald-500 cursor-pointer">
+                    <label for="${item.id}" class="ml-3 text-slate-700 font-medium cursor-pointer flex-grow select-none">${item.text}</label>
+                `;
+                checklistContainer.appendChild(div);
+                
+                const checkbox = div.querySelector('input');
+                // Load saved state
+                checkbox.checked = localStorage.getItem(item.id) === 'true';
+                // Save state on change
+                checkbox.addEventListener('change', (e) => localStorage.setItem(item.id, e.target.checked));
+            });
+
+            // Global function to reset checklist
+            window.resetChecklist = function() {
+                if(confirm('체크리스트 기록을 모두 지우시겠습니까?')) {
+                    checklistItems.forEach(item => {
+                        localStorage.removeItem(item.id);
+                        document.getElementById(item.id).checked = false;
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
